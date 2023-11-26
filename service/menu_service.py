@@ -18,14 +18,14 @@ def menu_service():
           input( f"\nPresione ENTER para Continuar..." )
           print("\n")
    if (data.selections[0] == 3):
-          titulo = input("\nIntroduce el título del libro que deseas modificar: ")
+          id = input("\nIntroduce el id del libro que deseas modificar: ")
           nuevo_titulo = input("\nIntroduce el nuevo título del libro: ")
           nuevo_autor = input("\nIntroduce el nuevo autor del libro: ")
-          modificar_libro(titulo, nuevo_titulo, nuevo_autor)
+          modificar_libro(id, nuevo_titulo, nuevo_autor)
           input( f"\nPresione ENTER para Continuar..." )
           print("\n")
    if (data.selections[0] == 4):
-          titulo = input("\nIntroduce el título del libro que deseas eliminar: ")
+          titulo = input("\nIntroduce el id del libro que deseas eliminar: ")
           eliminar_libro(titulo)
           input( f"\nPresione ENTER para Continuar..." )
           print("\n")

@@ -1,69 +1,42 @@
 [
     {
-        "titulo": "Cien años de soledad",
-        "autor": "Gabriel García Márquez"
+        "id": 1,
+        "titulo": "Cien aÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â±os de soledad",
+        "autor": "Gabriel Garcia Marquez"
     },
     {
+        "id": 2,
         "titulo": "Don Quijote de la Mancha",
         "autor": "Miguel de Cervantes"
     },
     {
+        "id": 3,
         "titulo": "La sombra del viento",
-        "autor": "Carlos Ruiz Zafón"
+        "autor": "Carlos Ruiz Zafon"
     },
     {
+        "id": 4,
         "titulo": "Rayuela",
-        "autor": "Julio Cortázar"
+        "autor": "Julio Cortazar"
     },
     {
-        "titulo": "Pedro Páramo",
+        "id": 5,
+        "titulo": "Pedro Paramo",
         "autor": "Juan Rulfo"
     },
     {
-        "titulo": "El amor en los tiempos del cólera",
-        "autor": "Gabriel García Márquez"
+        "id": 6,
+        "titulo": "El amor en los tiempos del colera",
+        "autor": "Gabriel Garcia Marquez"
     },
     {
-        "titulo": "La casa de los espíritus",
+        "id": 7,
+        "titulo": "La casa de los espitus",
         "autor": "Isabel Allende"
     },
     {
-        "titulo": "Crónica de una muerte anunciada",
-        "autor": "Gabriel García Márquez"
-    },
-    {
-        "id": 1,
-        "titulo": "karina 4",
-        "autor": "karina 4"
-    },
-    {
-        "id": 1,
-        "titulo": "karina 5",
-        "autor": "karina 5"
-    },
-    {
-        "id": 1,
-        "titulo": "karina 6",
-        "autor": "karina 6"
-    },
-    {
-        "id": 1,
-        "titulo": "karina modificado",
-        "autor": "karina modificado"
-    },
-    {
-        "id": 13,
-        "titulo": "1",
-        "autor": "2"
-    },
-    {
-        "id": 14,
-        "titulo": "2",
-        "autor": "5"
-    },
-    {
-        "id": 15,
-        "titulo": "1",
-        "autor": "3"
+        "id": 8,
+        "titulo": "Cronica de una muerte anunciada",
+        "autor": "Gabriel Garcia Marquez"
     }
 ]

@@ -36,7 +36,7 @@ def listar_libros():
 def eliminar_libro(titulo):
     if rutalibros:
         for libro in rutalibros[:]:
-            if libro['titulo'] == titulo:
+            if libro['id'] == int(titulo):
                 rutalibros.remove(libro)
                 file.write_json(archivo_json, rutalibros)
                 print(f"Libro '{titulo}' ha sido eliminado con éxito.")
@@ -46,16 +46,16 @@ def eliminar_libro(titulo):
         print("No hay libros en la lista.")
 
 # Función para modificar un libro
-def modificar_libro( titulo, nuevo_titulo, nuevo_autor):
+def modificar_libro( idtitulo, nuevo_titulo, nuevo_autor):
     if rutalibros:
         for libro in rutalibros:
-            if libro['titulo'] == titulo:
+            if libro['id'] == int(idtitulo):
                 libro['titulo'] = nuevo_titulo
                 libro['autor'] = nuevo_autor
                 file.write_json(archivo_json, rutalibros)
-                print(f"Libro '{titulo}' ha sido modificado a '{nuevo_titulo}' de '{nuevo_autor}'.")
+                print(f"Libro '{idtitulo}' ha sido modificado a '{nuevo_titulo}' de '{nuevo_autor}'.")
                 return
-        print(f"No se encontró un libro con el título '{titulo}' en la lista.")
+        print(f"No se encontró un libro con el título '{idtitulo}' en la lista.")
     else:
         print("No hay libros en la lista.")
 

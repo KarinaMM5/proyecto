@@ -9,15 +9,6 @@ options = {
             "Modificar libro",
             "Borrar libro"
         ]
-    },
-    'Agregar': {
-        'question': 'Libros: Qué desea hacer?',
-        'options': [
-            'Desea Registrar un Libro',
-            'Ver los Libros registrados',
-            'Modificar datos de un Libro',
-            'Eliminar Libro'
-        ]
     }
  }
 
