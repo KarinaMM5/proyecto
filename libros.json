@@ -1,8 +1,8 @@
 [
     {
         "id": 1,
-        "titulo": "Cien aÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â±os de soledad",
-        "autor": "Gabriel Garcia Marquez"
+        "titulo": "La Metamorfosis",
+        "autor": "Frank Kafka"
     },
     {
         "id": 2,
@@ -38,5 +38,15 @@
         "id": 8,
         "titulo": "Cronica de una muerte anunciada",
         "autor": "Gabriel Garcia Marquez"
+    },
+    {
+        "id": 9,
+        "titulo": "Orgullo y Prejuicio",
+        "autor": "Jane Austen"
+    },
+    {
+        "id": 10,
+        "titulo": "Memorias de una geisha",
+        "autor": "Arthur Golden"
     }
 ]

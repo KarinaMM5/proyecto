@@ -41,7 +41,7 @@ def eliminar_libro(titulo):
                 file.write_json(archivo_json, rutalibros)
                 print(f"Libro '{titulo}' ha sido eliminado con éxito.")
                 return
-        print(f"No se encontró un libro con el título '{titulo}' en la lista.")
+        print(f"No se encontró un libro con el id '{titulo}' en la lista.")
     else:
         print("No hay libros en la lista.")
 
@@ -55,7 +55,7 @@ def modificar_libro( idtitulo, nuevo_titulo, nuevo_autor):
                 file.write_json(archivo_json, rutalibros)
                 print(f"Libro '{idtitulo}' ha sido modificado a '{nuevo_titulo}' de '{nuevo_autor}'.")
                 return
-        print(f"No se encontró un libro con el título '{idtitulo}' en la lista.")
+        print(f"No se encontró un libro con el id '{idtitulo}' en la lista.")
     else:
         print("No hay libros en la lista.")
 
